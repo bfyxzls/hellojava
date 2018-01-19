@@ -1,3 +1,4 @@
+package lind;
 /**
  * lind test computer
  */

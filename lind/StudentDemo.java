@@ -1,10 +1,11 @@
+package lind;
 /*
  * 需求：请定义一个数组，存储三个学生对象，然后遍历该数组，得到每一个学生对象的成员变量值。
  * 
  * Student[]	对象数组。
  */
 public class StudentDemo {
-    public static void print() {
+    public  void print() {
         // 创建对象数组
         Student[] students = new Student[3];
 
@@ -14,9 +15,9 @@ public class StudentDemo {
         }
 
         // 创建学生对象元素
-        Student s1 = new Student("林青霞", 28);
-        Student s2 = new Student("风清扬", 31);
-        Student s3 = new Student("林志玲", 18);
+        Student s1 = new Student("zhangsan", 28);
+        Student s2 = new Student("lisi", 31);
+        Student s3 = new Student("wanger", 18);
 
         // 把元素放到数组中
         students[0] = s1;

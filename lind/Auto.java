@@ -1,3 +1,4 @@
+package lind;
 /**
  * computer one sence
  */
