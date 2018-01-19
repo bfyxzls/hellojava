@@ -1,17 +1,19 @@
-
+/**
+ * lind test computer
+ */
 public interface IAuto {
-    /**
-     *  输出内容
+   /**
+    * print a message
     */
     void printMsg(String msg);
 
-    /**
-     *  加法
-     */
+   /**
+    * add
+    */
     void adding(int x, int y);
 
-    /**
-     *  减法
-     */
+   /**
+    * sub
+    */
     void subtraction(int x, int y);
 }

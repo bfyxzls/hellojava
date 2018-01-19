@@ -1,3 +1,6 @@
+/**
+ * computer one sence
+ */
 public class Auto implements IAuto {
 
    public void printMsg(String msg) {
