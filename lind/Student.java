@@ -1,5 +1,6 @@
 package lind;
 public class Student {
+    /** name field */
     private String name; 
     private int age; 
 
@@ -7,12 +8,18 @@ public class Student {
         super(); 
     }
 
+    /**
+     * init student
+     */
     public Student(String name, int age) {
         super(); 
         this.name = name; 
         this.age = age; 
     }
 
+    /**
+     * get name 
+     */
     public String getName() {
         return name; 
     }
